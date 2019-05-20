@@ -1,0 +1,10 @@
+<!-- sorry for inline style, but this project is being difficult and its the weekend, so :P -->
+  <div style="text-align:center">
+  <h1>
+    Card Shuffler
+  </h1>
+  <button style="margin: 1rem 0" [ngClass]="v-space" (click)="shuffle()"> SHUFFLE </button>
+  <div>
+    <div *ngFor="let i of deck"> {{i}} </div>
+  </div>
+</div>
